@@ -12,8 +12,8 @@ from random import randint
 n = int(input('Enter size of list_n: '))
 m = int(input('Enter size of list_m: '))
 
-list_n = [randint(-5, 20) for i in range(n)]
-list_m = [randint(-5, 20) for i in range(m)]
+list_n = [randint(-10, 10) for i in range(n)]
+list_m = [randint(-10, 10) for i in range(m)]
 print(list_n)
 print(list_m)
 
